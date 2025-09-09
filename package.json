@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
     "server": "node server.js",
     "lint": "eslint"
   },
@@ -29,6 +29,9 @@
     "eslint-config-next": "15.5.2",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.8",
-    "typescript": "^5"
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
